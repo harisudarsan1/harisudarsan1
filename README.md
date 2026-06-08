@@ -13,10 +13,13 @@ I build infrastructure at the kernel level — Kubernetes, eBPF, SDN, distribute
 
 I maintain and contribute to infrastructure tooling at the kernel and platform level:
 
-- **torus** — eBPF-based Kubernetes CNI with VPC and subnet abstractions
-- **Kronos** — BPF-LSM runtime enforcement engine for Kubernetes (Rust/Aya)
-- **DNS-tracer** — eBPF-based kernel-level DNS query capture
-- **KubeArmor** (CNCF) — Contributed DNS visibility (kprobes), operator RBAC, CLI optimization, Grafana plugin
+| Project | Contributions |
+|---------|--------------|
+| **Kronos** | BPF-LSM runtime enforcement engine for Kubernetes (Rust/Aya) — own project |
+| **DNS-tracer** | eBPF-based kernel-level DNS query capture — own project |
+| **KubeArmor** (CNCF) | Merged PRs: operator policy update fixes, relay RBAC, hardened rule presets; also contributed DNS visibility (kprobes), CLI optimization, Grafana plugin |
+| **KubeOVN** | Merged PR: fixed egress sync status field on ACL update failure ([#6804](https://github.com/kubeovn/kube-ovn/pull/6804)) |
+| **KubeVirt** | Filed issues: RBAC ephemeral backup ([#18057](https://github.com/kubevirt/kubevirt/issues/18057)), nil pointer dereference in virt-operator ([#18018](https://github.com/kubevirt/kubevirt/issues/18018)) |
 
 ### Let's connect
 
